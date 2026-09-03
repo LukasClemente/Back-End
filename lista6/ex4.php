@@ -1,0 +1,26 @@
+<? 
+
+$opcao = 3;
+echo '<h1 style="color: red">NETFLIX</h1>';
+echo "1 - Assistir filme<br>";
+echo "2 - Assistir série<br>";
+echo "3 - Ver minha lista<br>";
+echo "4 - Sair<br>";
+
+switch ($opcao) {
+    case 1:
+        echo "Abrindo filme...";
+        break;
+    case 2:
+        echo "Abrindo série...";
+        break;
+    case 3:
+        echo "Abrindo sua lista...";
+        break;
+    case 4:
+        echo "Até logo'";
+        break;
+    default:
+        echo "Opção inválida";
+}
+?>
